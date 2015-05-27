@@ -1,0 +1,16 @@
+Package: choropleths
+Type: Package
+Title: Create choropleth maps.
+Version: 0.1.0
+Date: 2015-05-22
+Author: Changhyeok Lee
+Maintainer: Changhyeok Lee <changhyeok.lee@searshc.com>
+Description: Create choropleth maps.
+License: Do whatever you want to do with this.
+Imports:
+  dplyr,
+  ggvis,
+  ggplot2,
+  gridExtra,
+  shiny
+LazyData: true

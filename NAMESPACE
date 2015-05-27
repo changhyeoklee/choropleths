@@ -1,0 +1,19 @@
+export(choropleths)
+
+export(draw_map)
+S3method(draw_map, default)
+S3method(draw_map, choropleths)
+
+export(draw_legend)
+S3method(draw_legend, default)
+S3method(draw_legend, choropleths)
+
+import(dplyr)
+importFrom(ggvis, "ggvis")
+importFrom(ggvis, "layer_paths")
+importFrom(ggvis, "hide_axis")
+importFrom(ggvis, "set_options")
+importFrom(ggvis, "add_tooltip")
+import(ggplot2)
+import(gridExtra)
+import(shiny)
